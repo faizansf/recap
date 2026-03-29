@@ -1,6 +1,6 @@
 ---
 name: recap
-description: "Project recap — get back up to speed. Modes: quick (default), full, git, stack, onboard, files, todos. Add keyword to filter."
+description: "Project recap — get back up to speed on any project instantly. Use this skill when the user says things like \"catch me up\", \"what was I working on\", \"summarize recent changes\", \"get me up to speed\", \"what did I do last session\", or starts a new session on an unfamiliar project. Modes: quick (default), full, git, stack, onboard, files, todos. Add a keyword to filter by area."
 argument-hint: "[mode] [focus] — e.g. 'quick', 'full auth', 'todos api'"
 
 ---
