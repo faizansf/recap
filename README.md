@@ -40,6 +40,10 @@ Add a keyword to filter any mode to a specific area:
 /recap files components
 ```
 
+## Permissions
+
+The skill runs a bash script to collect project info. Claude Code will prompt you to approve it on first use — select **Allow once** or **Allow always**.
+
 ## How it works
 
 `/recap` runs a bash script that collects git state, recent file changes, TODOs, stack info, and config files from your project. The raw output is passed to Claude, which synthesizes it into a clean, scannable summary — no raw script output is shown.
