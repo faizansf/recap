@@ -50,6 +50,8 @@ The skill runs a bash script to collect project info. Your agent may prompt you 
 
 `/recap` runs a bash script that collects git state, recent file changes, TODOs, stack info, and config files from your project. The raw output is passed to your AI agent, which synthesizes it into a clean, scannable summary — no raw script output is shown.
 
+The script is thoroughly commented so you can see exactly what it collects and why. Open `scripts/recap.sh` after installing to review it before approving execution.
+
 ## Uninstall
 
 ```bash
