@@ -8,7 +8,7 @@ argument-hint: "[mode] [focus] — e.g. 'quick', 'full auth', 'todos api'"
 
 Script output:
 
-!`chmod +x ~/.claude/skills/recap/scripts/recap.sh 2>/dev/null; bash ~/.claude/skills/recap/scripts/recap.sh $ARGUMENTS`
+!`bash ~/.claude/skills/recap/scripts/recap.sh $ARGUMENTS`
 
 ## How to read the output
 
